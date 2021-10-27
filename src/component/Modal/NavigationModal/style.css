@@ -1,0 +1,48 @@
+.navigation .modal-close-btn {
+  display: none;
+}
+
+#navigation {
+  position: fixed;
+  right: 0;
+
+  height: 100%;
+  width: 100%;
+  max-width: 20rem;
+
+  background-color: white;
+
+  box-shadow: -3px 0 14px 0 rgb(0 0 0 / 50%);
+  animation: moveRightToLeft 300ms ease;
+}
+
+.navigation-header {
+  padding: 1rem 2rem;
+  color: white;
+  background-color: var(--dark-blue);
+}
+
+.navigation-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigation-menus li {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--gray);
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.navigation-menus li:hover:not(.navigation-submenu) {
+  background-color: var(--light-blue);
+}
+
+.navigation-submenu {
+  border: none !important;
+  cursor: initial !important;
+}
+.navigation-submenu > span {
+  font-size: 0.9em;
+  /* margin-right: 1em; */
+}

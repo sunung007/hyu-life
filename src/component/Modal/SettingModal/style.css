@@ -1,0 +1,50 @@
+.setting-modal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  background-image: url("/src/assets/hylion.svg");
+  background-position: 90% 90%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+
+  animation: fadeIn 500ms ease;
+}
+
+.setting-modal .body-title {
+  border-bottom: 1px solid var(--gray);
+}
+
+.setting-wrapper {
+  font-size: 1.2em;
+}
+
+.setting-wrapper > li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.setting-item-label {
+  width: 7em;
+  font-weight: bold;
+}
+
+/* 한번에 드는 내용의 개수 */
+.setting-arrow-element {
+  padding: 0 1em;
+}
+.setting-arrow {
+  color: var(--gray);
+  cursor: pointer;
+}
+.setting-arrow:hover {
+  color: var(--blue);
+}
+
+.setting-buttons-wrapper {
+  font-weight: bold;
+}

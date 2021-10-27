@@ -1,0 +1,55 @@
+.portal {
+  position: relative;
+}
+
+.portal .table > div {
+  text-align: center;
+}
+
+.portal .table .portal-title {
+  text-align: left;
+  padding: 0 1em;
+}
+
+.portal-table-1 {
+  width: 60%;
+}
+.portal-table-2 {
+  width: 20%;
+}
+.portal-table-3 {
+  width: 10%;
+}
+.portal-table-4 {
+  width: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .portal .table .portal-title {
+    padding: 0;
+  }
+
+  .portal-table-line2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 0.5em;
+
+    font-size: 0.9em;
+    color: var(--dark-gray);
+  }
+
+  .portal-table-1 {
+    width: 100%;
+  }
+  .portal-table-2 {
+    width: initial;
+    text-align: left;
+  }
+  .portal-table-4 {
+    width: initial;
+    text-align: right;
+  }
+}

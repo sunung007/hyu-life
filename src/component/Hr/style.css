@@ -1,0 +1,18 @@
+.hr {
+  /*position: relative;*/
+  height: 6.7rem;
+}
+
+.hr hr {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100vw;
+  height: 0.7rem;
+
+  margin: 3rem 0;
+
+  border: none;
+  background-color: var(--light-gray);
+}

@@ -1,0 +1,44 @@
+footer {
+  background-color: var(--light-orange);
+  font-size: 0.8em;
+  min-height: 4rem;
+}
+
+footer > div {
+  height: 100%;
+  width: 100%;
+  max-width: 1080px;
+
+  margin: 0 auto;
+  padding: 1rem 2rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  text-align: left;
+}
+.footer-right {
+  display: flex;
+  flex-direction: row;
+}
+.footer-ask {
+  text-align: center;
+  margin-left: 0.5em;
+}
+.footer-ask:hover {
+  color: var(--dark-blue);
+}
+
+@media screen and (max-width: 600px) {
+  footer > div {
+    flex-direction: column;
+  }
+  .footer-right {
+    width: 100%;
+    margin-top: 1em;
+  }
+}

@@ -1,0 +1,35 @@
+header {
+  position: fixed;
+  top: 0;
+
+  width: 100vw;
+  height: 3.5rem;
+
+  color: white;
+  background-color: var(--dark-blue);
+
+  z-index: 100;
+}
+header > div {
+  height: 100%;
+  width: 100%;
+  max-width: 1080px;
+
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 1.2em;
+}
+.header-menus > li {
+  margin: 0 0.5em;
+}
