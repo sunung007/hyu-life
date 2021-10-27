@@ -1,7 +1,7 @@
 import "./App.css";
 
 import {useEffect} from "react";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route} from "react-router-dom";
 import {BrowserView} from "react-device-detect";
 
 import Header from "./Header";
@@ -28,7 +28,8 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Header />
 
       <Route exact path={"/"} component={Home} />
@@ -45,7 +46,8 @@ function App() {
       <BrowserView>
         <div id={"mouse-cursor"} />
       </BrowserView>
-    </BrowserRouter>
+    </HashRouter>
+    // </BrowserRouter>
   );
 }
 
