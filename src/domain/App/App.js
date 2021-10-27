@@ -1,7 +1,11 @@
 import "./App.css";
 
 import {useEffect} from "react";
+<<<<<<< HEAD
 import {BrowserRouter, HashRouter, Route} from "react-router-dom";
+=======
+import {BrowserRouter, Route} from "react-router-dom";
+>>>>>>> 804710b9b8770c978444525902f00a236f81ba94
 import {BrowserView} from "react-device-detect";
 
 import Header from "./Header";
