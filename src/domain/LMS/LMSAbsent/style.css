@@ -1,0 +1,28 @@
+.lms-absent .lms-table-1 {
+  width: 10%;
+}
+.lms-absent .lms-table-2 {
+  width: 20%;
+}
+.lms-absent .lms-table-3 {
+  width: 15%;
+}
+.lms-absent .lms-table-4 {
+  width: 45%;
+}
+.lms-absent .lms-table-5 {
+  width: 10%;
+}
+
+@media screen and (max-width: 700px) {
+  .lms-absent.lms-table-1 {
+    width: 100%;
+  }
+  .lms-absent.lms-table-2 {
+    width: initial;
+  }
+  .lms-absent.lms-table-3 {
+    width: initial;
+    text-align: right;
+  }
+}

@@ -1,0 +1,88 @@
+.login {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.login-background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  background: url("../../assets/blob_background.svg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  z-index: -1;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+
+  padding: 4em;
+  margin: 0 auto;
+
+  border: 1px solid var(--gray);
+  border-radius: 1em;
+
+  background-color: white;
+  text-align: center;
+}
+
+.login-form > .body-title {
+  margin-bottom: 1em;
+}
+
+.login-form-round {
+  display: flex;
+  flex-direction: column;
+}
+.login-form-round > * {
+  height: 3.2rem;
+  padding: 1em 2em;
+  margin-bottom: 0.2em;
+
+  border: 1px solid var(--gray);
+  border-radius: 5em;
+
+  font-size: 1rem;
+}
+
+#login-btn {
+  border: none;
+
+  color: white;
+  background-color: var(--dark-blue);
+
+  transition: background-color;
+  transition-duration: 300ms;
+}
+#login-btn:hover {
+  background-color: var(--red);
+}
+
+.login-alert-msg {
+  position: absolute;
+  bottom: 2em;
+
+  color: var(--red);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .login .body-title {
+    padding: 0 2rem;
+  }
+  .login-form {
+    margin: 2em;
+    padding: 4em 2em;
+  }
+}

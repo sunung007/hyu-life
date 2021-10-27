@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3.5rem 0 0 0;
+  font-family: notosans-regular, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  --blue: #3db2ff;
+  --dark-blue: #0071bc;
+  --light-blue: #d8f4ff;
+  --red: #ff2442;
+  --orange: #ffb830;
+  --light-orange: #ffedda;
+  --dark-gray: #707070;
+  --gray: #b1b1b1;
+  --light-gray: #ddd;
+  --yellow: #f9f871;
+
+  --blue-opacity2: rgba(61, 178, 255, 0.2);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: nanum-barunpen-bold, nanum-barunpen, notosans-extra-bold,
+    notosans-bold, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+/* 나눔 바른펜 일반 */
+@font-face {
+  font-family: "nanum-barunpen";
+  src: url("./fonts/NanumBarunpenR.ttf");
+}
+/* 나눔 바른펜 굵은체 */
+@font-face {
+  font-family: "nanum-barunpen-bold";
+  src: url("./fonts/NanumBarunpenB.ttf");
+}
+
+/* Noto Sans Regular */
+@font-face {
+  font-family: "notosans-regular";
+  src: url("./fonts/NotoSansRegular.otf");
+}
+
+/* Noto Sans Light */
+@font-face {
+  font-family: "notosans-light";
+  src: url("./fonts/NotoSansLight.otf");
+}
+
+/* Noto Sans Bold */
+@font-face {
+  font-family: "notosans-bold";
+  src: url("./fonts/NotoSansBold.otf");
+}
+
+/* Noto Sans Bold */
+@font-face {
+  font-family: "notosans-extra-bold";
+  src: url("./fonts/NotoSansExtraBold.otf");
+}

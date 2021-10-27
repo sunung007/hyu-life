@@ -1,0 +1,22 @@
+.round-btn {
+  border: 1px solid var(--dark-gray);
+  border-radius: 10em;
+
+  padding: 0.8em 1.6em;
+  box-sizing: content-box;
+
+  font-size: 0.9em;
+  background-color: white;
+
+  transition: background-color;
+  transition-duration: 300ms;
+}
+.round-btn:hover {
+  background-color: var(--light-blue);
+}
+
+@media screen and (max-width: 600px) {
+  .round-btn {
+    padding: 0.5em 1em;
+  }
+}

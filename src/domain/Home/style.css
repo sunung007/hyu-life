@@ -1,0 +1,13 @@
+.home .buttons {
+  position: relative;
+  z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    overflow-x: hidden;
+  }
+  .home > div > * {
+    padding: 0 2rem;
+  }
+}
