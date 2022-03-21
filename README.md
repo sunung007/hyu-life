@@ -21,9 +21,3 @@ Copyright 2021. sunung007(Gofo)
 - LMS에서 수행하지 않은 수업 목록 가져오기
 - 포탈에서 공지 가져오기
 - 컴퓨터소프트웨어학부 페이지에서 공지 가져오기
-
----
-
-## 문의
-
-문의 : [sunung007@hanyang.ac.kr](mailto:sunung007@hanyang.ac.kr)
